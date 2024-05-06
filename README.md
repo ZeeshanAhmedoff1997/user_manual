@@ -2,9 +2,27 @@
 
 This project processes user manuals in PDF format to extract troubleshooting information and returns it in JSON format.
 
-# Installation
+## Installation
 
--
+Follow these steps to get the project running on your local machine:
+
+### Prerequisites
+
+Ensure you have Python installed and the pip package manager is available.
+
+### Install Dependencies
+
+Install all the required packages using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the server using
+
+```bash
+python manage.py runserver
+```
 
 ## Security Enhancements
 
