@@ -12,13 +12,24 @@ Ensure you have Python installed and the pip package manager is available.
 
 ### Install Dependencies
 
-Install all the required packages using the following command:
+### 1. Install all the required packages using the following command:
+
+All the dependencies are listed in the requirements.txt
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the server using
+### 2. Run the Migrations
+
+First make the migrations then run the pending migrations
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### 3. Run the server using
 
 ```bash
 python manage.py runserver
